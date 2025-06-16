@@ -5,23 +5,7 @@ const { json } = require("stream/consumers");
 
 const filePath = path.join(__dirname, "./db/todo.json");
 
-// const data = [
-//   {
-//     title: "Learn Node.js",
-//     body: "Start by understanding modules, file system, and event loop.",
-//     createdAt: "2025-05-31T10:00:00Z",
-//   },
-//   {
-//     title: "Build a REST API",
-//     body: "Use Express.js to create routes, middleware, and connect to MongoDB.",
-//     createdAt: "2025-05-30T15:30:00Z",
-//   },
-//   {
-//     title: "Master Async JavaScript",
-//     body: "Study callbacks, promises, and async/await to handle asynchronous operations.",
-//     createdAt: "2025-05-29T08:45:00Z",
-//   },
-// ];
+
 
 const server = http.createServer((req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
