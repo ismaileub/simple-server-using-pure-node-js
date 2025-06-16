@@ -1,4 +1,4 @@
-# Pure Node.js API with File-Based Storage
+# Node.js API with File-Based Storage
 
 This is a simple **CRUD API** server implemented with pure **Node.js**.  
 It stores data in a **JSON file** instead of a traditional database — perfect for small projects, prototyping, or learning Node.js fundamentals.
